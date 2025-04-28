@@ -653,6 +653,10 @@ footer {
     color: #111111;
 }
 
+.footer-img {
+    height: 530px;
+}
+
 .footer-content {
     position: absolute;
     width: 100%;
@@ -703,9 +707,10 @@ footer {
 }
 
 .character {
-    max-width: 100%;
-    max-width: 190px;
+    width: 100%;
+    max-width: 500px;
     margin-right: 15px;
+    border: 1px solid;
 }
 
 .sub-foot {
@@ -880,7 +885,7 @@ footer {
     }
 
     .footer-img {
-        height: 450px;
+        height: 500px;
     }
 
     .footer-content {
@@ -904,7 +909,7 @@ footer {
 
 @media screen and (max-width: 1024px){
     .footer-img {
-       height: 420px;
+       height: 480px;
     }
 
     .footer-data .main {
@@ -971,7 +976,7 @@ footer {
     }
 
     .footer-img {
-        height: 430px;
+        height: 450px;
     }
 
     .custom-row img {
@@ -988,7 +993,7 @@ footer {
     }
 
     .character {
-        max-width: 120px;
+        max-width: 150px;
         margin-bottom: 10px;
     }
 
